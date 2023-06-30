@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">HostelGo</string>
+
+    <string-array name="my_spinner_items">
+        <item>Student</item>
+        <item>Warden</item>
+
+    </string-array>
+    <string-array name="my_spinner_foodmenu" tools:ignore="DuplicateDefinition">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+
+</resources>

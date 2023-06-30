@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/hostel"
+tools:context=".viewAttendSheet">
+
+    <ImageView
+        android:id="@+id/refreshimageView"
+        android:layout_width="36dp"
+        android:layout_height="47dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="576dp"
+        app:srcCompat="@drawable/refresh" />
+
+    <TextView
+        android:id="@+id/complaintView"
+        android:layout_width="wrap_content"
+        android:layout_height="73dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="647dp"
+        android:text="Attendence Sheet"
+        android:textAlignment="center"
+        android:textColor="@color/DarkPurple"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+
+        android:id="@+id/viewSheetRecyc"
+        android:layout_width="wrap_content"
+        android:layout_height="493dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="81dp" />
+
+    <EditText
+        android:id="@+id/viewSheetDate"
+        android:layout_width="188dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="211dp"
+        android:layout_marginBottom="585dp"
+        android:ems="10"
+        android:hint="dd/mm/yyyy"
+        android:inputType="date" />
+
+    <Button
+        android:id="@+id/viewSheetBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="678dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/custom_edittext"
+        android:backgroundTint="@color/DarkPurple"
+        android:text="View Attendence"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>

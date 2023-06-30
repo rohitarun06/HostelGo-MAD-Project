@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "646393635687",
+    "project_id": "hostelgomad",
+    "storage_bucket": "hostelgomad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:646393635687:android:00e967c6aaf13e007345c2",
+        "android_client_info": {
+          "package_name": "com.example.hostelgomadproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "646393635687-lb8ask45klapos7ueu5ccujfh54t0laf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9zxIV8p-DF7S_dHYT9r1IaGhr0pkOaT8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "646393635687-lb8ask45klapos7ueu5ccujfh54t0laf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
